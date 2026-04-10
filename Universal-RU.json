@@ -1,0 +1,264 @@
+[
+  {
+    "network": "udp",
+    "outboundTag": "direct",
+    "enabled": true,
+    "remarks": "UDP Direct"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "104.160.128.0/18",
+      "185.40.64.0/22",
+      "185.40.68.0/22",
+      "185.40.72.0/22",
+      "185.40.76.0/22",
+      "64.244.96.0/19"
+    ],
+    "domain": [
+      "lol.secure.dyn.riotcdn.net",
+      "playvalorant.com",
+      "riotcdn.net",
+      "riotgames.com",
+      "riotgamesinc.com",
+      "riotstatic.com",
+      "valorant-api.com",
+      "valorant.com"
+    ],
+    "process": [
+      "EasyAntiCheat_EOS.exe",
+      "EasyAntiCheat.exe",
+      "RiotClientCrashHandler.exe",
+      "RiotClientServices.exe",
+      "VALORANT-Win64-Shipping.exe",
+      "VALORANT.exe",
+      "vgc.exe",
+      "vgtray.exe"
+    ],
+    "enabled": true,
+    "remarks": "Valorant"
+  },
+  {
+    "outboundTag": "proxy",
+    "ip": [
+      "149.154.160.0/20",
+      "149.154.164.0/22",
+      "185.76.151.0/24",
+      "2001:67c:15f8::/48",
+      "2001:67c:4e8::/48",
+      "2001:b28:f23d::/48",
+      "2001:b28:f23e::/48",
+      "91.105.192.0/23",
+      "91.108.12.0/22",
+      "91.108.16.0/22",
+      "91.108.4.0/22",
+      "91.108.56.0/22",
+      "91.108.8.0/22"
+    ],
+    "enabled": true,
+    "remarks": "IP Telegram"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "2ip.io"
+    ],
+    "enabled": true,
+    "remarks": "Test-VPN"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "cloudflare.com"
+    ],
+    "enabled": true,
+    "remarks": "Cloudflare"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "pornhub.com"
+    ],
+    "enabled": true,
+    "remarks": "Adult"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      " geforce.com",
+      "nvidia.com"
+    ],
+    "enabled": true,
+    "remarks": "NVIDIA"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      " booking.com",
+      "airbnb.com"
+    ],
+    "enabled": true,
+    "remarks": "Booking "
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      " arcgame.com",
+      " assassinscreed.com",
+      " battlefield.com",
+      " brawlhalla.com",
+      " callofduty.com",
+      " helldivers2.com",
+      " playapex.com",
+      " rockstargames.com",
+      " ea.com",
+      " roblox.com",
+      " ubisoft.com"
+    ],
+    "process": [
+      "ApexLegends.exe",
+      "Brawlhalla",
+      "EADesktop.exe",
+      "RobloxPlayer.exe",
+      "UbisoftConnect.exe"
+    ],
+    "enabled": true,
+    "remarks": "Games Proxy"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:anthropic.com",
+      "domain:chatgpt.com",
+      "domain:claude.ai",
+      "domain:grok.com",
+      "domain:midjourney.com",
+      "domain:oaistatic.com",
+      "domain:oaiusercontent.com",
+      "domain:openai.com",
+      "domain:x.ai"
+    ],
+    "enabled": true,
+    "remarks": "AI Services"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      " disneyplus.com",
+      " netflix.com",
+      " paramountplus.com",
+      " soundcloud.com",
+      " spotify.com",
+      "youtube.com"
+    ],
+    "enabled": true,
+    "remarks": "Video \u0026 Music"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "cdn-telegram.org",
+      "cdn1.telegram.org",
+      "cdn2.telegram.org",
+      "cdn3.telegram.org",
+      "cdn4.telegram.org",
+      "cdn5.telegram.org",
+      "chatgpt.com",
+      "discord.com",
+      "discord.gg",
+      "discord.media",
+      "discordapp.com",
+      "discordapp.net",
+      "gateway.discord.gg",
+      "signal.org",
+      "t.me",
+      "t.me",
+      "tdesktop.com",
+      "telegra.ph",
+      "telegram.me",
+      "telegram.org",
+      "telegram.org",
+      "telesco.pe",
+      "whatsapp.com",
+      "whatsapp.net",
+      "cdn.discordapp.com",
+      "media.discordapp.net",
+      "images-ext-1.discordapp.net",
+      "images-ext-2.discordapp.net",
+      "attachments.discordapp.net"
+    ],
+    "process": [
+      "Discord.exe",
+      "Signal.exe",
+      "Telegram.exe",
+      "TelegramDesktop.exe",
+      "WhatsApp.exe"
+    ],
+    "enabled": true,
+    "remarks": "Messenger"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      " adsense.google.com",
+      " play.google.com",
+      "ads.google.com"
+    ],
+    "enabled": true,
+    "remarks": "Google"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      " bbc.co.uk",
+      " cnn.com",
+      " dw.com",
+      " meduza.io",
+      " svoboda.org",
+      "bbc.com"
+    ],
+    "enabled": true,
+    "remarks": "News \u0026 Media"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "microsoft.com",
+      " xbox.com",
+      " live.com",
+      " office.com"
+    ],
+    "enabled": true,
+    "remarks": "Microsoft"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      " facebook.com",
+      " linkedin.com",
+      " onlyfans.com",
+      " quora.com",
+      " snapchat.com",
+      " tiktok.com",
+      " twitter.com",
+      " upwork.com",
+      "instagram.com"
+    ],
+    "enabled": true,
+    "remarks": "Social Media"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "facetime.apple.com"
+    ],
+    "enabled": true,
+    "remarks": "FaceTime/Apple"
+  },
+  {
+    "network": "tcp,udp",
+    "outboundTag": "direct",
+    "enabled": true,
+    "remarks": "All Others"
+  }
+]
